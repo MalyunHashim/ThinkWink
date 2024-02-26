@@ -6,7 +6,8 @@
 }
 
 body{
-    background-color: #e7eced;
+    background-color: #fff;
+    padding-left: 50px;
 }
 .header{
     min-height: 100vh;
@@ -18,19 +19,35 @@ body{
     position:relative;
     
 }
+
+.header nav div p{
+    padding-bottom: 30px;
+    
+}
+
+.mtn{
+    display: inline-block;
+    color: #cac5c5;
+}
+    
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:10px 10;
+    padding:10px 10px;
 
 }
 .logo{
     width:40px;
     height: 40%;
     cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    font-weight: 900;
 
 }
+
+
 
 nav button{
     border:0;
@@ -44,14 +61,18 @@ nav button{
     cursor: pointer
 }
 .header-content{
-    width:90%;
+    width:450px;
     color:#fff;
+    
     position: absolute;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
     text-align: center;
 
+}
+.header-content h1{
+    text-align: left;
 }
 .hebtn{
     display: inline-block;
@@ -65,7 +86,11 @@ nav button{
     /* background: transparent; */
     position: relative;
     cursor: pointer;
+    
 
+}
+.btns{
+    text-align: left;
 }
 /* .hebtn:hover{
     border:1px solid #f44336;
@@ -75,6 +100,8 @@ nav button{
 .content{
     background: #fff;
     padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .content h3{
     position: relative;
@@ -95,6 +122,8 @@ nav button{
   grid-template-columns: repeat(3, 1fr); 
   gap: 0px;
   width: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
   
 }
 .inspire .container .box{
@@ -127,4 +156,103 @@ nav button{
     border: 0;
     border-radius: 2px;
 }
+.box img{
+    width: 50px;
+    height: 50px;
 
+}
+.web .heading {
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: black;
+}
+.web .pass {
+    font-size: 12px;
+    color: grey;
+    line-height: 1.0;
+    padding-left:  1rem 0; 
+    text-align: center; 
+}
+.web .Expertise .boxes {
+    background: #f44336;
+    color: #fff;
+    padding: 20px;
+    width: 20%;
+    min-height: 40vh;
+    line-height: 5vh;
+}
+.web .Expertise .boxes h2{
+    font-size: 16px;
+    color: #cac5c5;
+    font-weight: 500;
+    text-align: center;   
+}
+.web .Expertise .boxes h3{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+
+}
+.web .Expertise .boxes p{
+    font-size: 12px;
+    font-size: 600;
+    text-align: center;
+}
+.web .Expertise .boxes a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.web .Expertise .boxes button{
+    background: #fff;
+    color: #f44336;
+    margin: 5px;
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+   text-align: center;
+   margin-left: 60px;
+}
+
+.web .Expertise .boxe{
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; */
+    width: 100%; 
+    background: #fff; 
+    margin-left: 50px;
+    padding-left: 30px; 
+    height: 50vh;
+}
+.web .Expertise .boxe img{
+    margin-left: 1rem 0;
+    height: 10vh;
+    width: 40%;
+   padding-right: 30px;
+}
+
+.web .Expertise .boxe h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+.web .Expertise .boxe h3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.web .Expertise .boxe p{
+    font-size: 1.5rem;
+    line-height: 1.0;
+   padding-left: 30px;
+   align-items: center;
+   text-align: center;
+}
