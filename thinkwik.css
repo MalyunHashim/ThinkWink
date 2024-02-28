@@ -102,6 +102,7 @@ nav button{
     padding-top: 10px;
     padding-left: 200px;
     padding-right: 200px;
+   
 }
 .content h3{
     position: relative;
@@ -116,6 +117,7 @@ nav button{
     padding-right: 20px;
     text-align: center;
     font-weight: 500;
+    margin-top: 10px;
 }
 .inspire .container{
   display: grid;
@@ -135,23 +137,25 @@ nav button{
 }
 .inspire .container .box img{
     margin: 1rem 0;
-    height: 10rem;   
+    height: 1.9rem;   
 }
 .inspire .container .box h2{
-  font-size: 2rem;
+  font-size: 1.0rem;
   color: black;
   line-height: 1.2;
+  padding: 5px;
 }
 .inspire .container .box p{
-  font-size: 1.2rem;
+  font-size: 10px;
   color: grey;
   line-height: 1.0;
-  padding: 1rem 0;
+  padding: 0rem 0;
+  margin-top: 10px;
 } 
 .inspire .container .box button{
     background: #f44336;
     color: #fff;
-    padding: 15px 38px;
+    padding: 10px 38px;
     margin-top: 30px;
     border: 0;
     border-radius: 2px;
@@ -163,25 +167,28 @@ nav button{
 }
 .web .heading {
     text-align: center;
-    padding: 2rem 0;
-    padding-bottom: 3rem;
+    padding: 1rem 0;
+    padding-bottom: 2rem;
     font-size: 3.5rem;
     color: black;
+   
 }
 .web .pass {
     font-size: 12px;
     color: grey;
     line-height: 1.0;
-    padding-left:  1rem 0; 
+    padding-left:  2rem 0; 
     text-align: center; 
+    margin-bottom: 10px;
+    padding-left: 100px;
 }
 .web .Expertise .boxes {
     background: #f44336;
     color: #fff;
-    padding: 20px;
-    width: 20%;
-    min-height: 40vh;
-    line-height: 5vh;
+    padding: 10px;
+    width: 30%;
+    min-height: 30vh;
+    line-height: 4vh;
 }
 .web .Expertise .boxes h2{
     font-size: 16px;
@@ -223,20 +230,24 @@ nav button{
 }
 
 .web .Expertise .boxe{
-    display: grid;
-    /* grid-template-columns: repeat(4, 1fr); 
-    gap: 20px; */
-    width: 100%; 
+    display: inline-block;
+    
+    /*grid-template-columns: repeat(4, 1fr); */
+    /* gap: 30px;  */
+    width: 80%; 
+    height: 20vh;
     background: #fff; 
     margin-left: 50px;
     padding-left: 30px; 
     height: 50vh;
+    
 }
 .web .Expertise .boxe img{
     margin-left: 1rem 0;
-    height: 10vh;
+    height: 50%;
     width: 40%;
    padding-right: 30px;
+   padding-left:20px ;
 }
 
 .web .Expertise .boxe h2{
@@ -250,7 +261,7 @@ nav button{
     font-weight: 500;
 }
 .web .Expertise .boxe p{
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     line-height: 1.0;
    padding-left: 30px;
    align-items: center;
