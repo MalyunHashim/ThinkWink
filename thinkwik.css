@@ -7,7 +7,7 @@
 
 body{
     background-color: #fff;
-    padding-left: 50px;
+   
 }
 .header{
     min-height: 100vh;
@@ -63,7 +63,6 @@ nav button{
 .header-content{
     width:450px;
     color:#fff;
-    
     position: absolute;
     top:50%;
     left:50%;
@@ -97,57 +96,83 @@ nav button{
     transition: 1s;
 
 } */
+
+.conts{
+    padding: 15px;
+}
 .content{
     background: #fff;
     padding-top: 10px;
+<<<<<<< HEAD
     padding-left: 200px;
     padding-right: 200px;
    
+=======
+    padding-left: 20%;
+    padding-right: 20%;
+    
+>>>>>>> 34ea85944642e443fe95238a8266afcab0c6f4ff
 }
 .content h3{
     position: relative;
     text-align: center;
-    align-items: center;
-    font-size: 1.1rem;
+   
+    font-size: 1.3rem;
     margin-top: 30px;
 }
 .content p {
+    color: #4d4d4d;
     align-items: center;
-    font-size: 10px;
-    padding-right: 20px;
+    font-size: 12px;
+   padding-top: 25px;
     text-align: center;
     font-weight: 500;
     margin-top: 10px;
 }
 .inspire .container{
+    padding-left: 20%;
+    padding-right: 20%;
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 0px;
   width: 100%;
-  padding-left: 200px;
-  padding-right: 200px;
+ 
   
 }
 .inspire .container .box{
-    padding: 3rem 2rem;
- border-radius: .5rem;
- background: #fff;
-   outline-offset: -1rem; 
-  text-align: center;   
+    padding: 2rem 1rem;
+    border-radius: .5rem;
+    background: #fff;
+    outline-offset: -1rem; 
+    text-align: center;   
 }
 .inspire .container .box img{
+<<<<<<< HEAD
     margin: 1rem 0;
     height: 1.9rem;   
 }
 .inspire .container .box h2{
   font-size: 1.0rem;
+=======
+    padding: 1rem 0;
+    height: 7rem;   
+    align-items: center;
+}
+.inspire .container .box h2{
+  font-size: 1rem;
+>>>>>>> 34ea85944642e443fe95238a8266afcab0c6f4ff
   color: black;
   line-height: 1.2;
   padding: 5px;
 }
 .inspire .container .box p{
+<<<<<<< HEAD
   font-size: 10px;
   color: grey;
+=======
+  font-size: 12px;
+  color: #4d4d4d;
+>>>>>>> 34ea85944642e443fe95238a8266afcab0c6f4ff
   line-height: 1.0;
   padding: 0rem 0;
   margin-top: 10px;
@@ -160,6 +185,7 @@ nav button{
     border: 0;
     border-radius: 2px;
 }
+<<<<<<< HEAD
 .box img{
     width: 50px;
     height: 50px;
@@ -267,3 +293,5 @@ nav button{
    align-items: center;
    text-align: center;
 }
+=======
+>>>>>>> 34ea85944642e443fe95238a8266afcab0c6f4ff
