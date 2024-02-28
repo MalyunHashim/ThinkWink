@@ -7,7 +7,7 @@
 
 body{
     background-color: #fff;
-    padding-left: 50px;
+   
 }
 .header{
     min-height: 100vh;
@@ -61,9 +61,8 @@ nav button{
     cursor: pointer
 }
 .header-content{
-    width:450px;
+    width:600px;
     color:#fff;
-    
     position: absolute;
     top:50%;
     left:50%;
@@ -73,6 +72,9 @@ nav button{
 }
 .header-content h1{
     text-align: left;
+    font-size: 50px;
+    
+    
 }
 .hebtn{
     display: inline-block;
@@ -97,62 +99,179 @@ nav button{
     transition: 1s;
 
 } */
+
+.conts{
+    padding: 15px;
+}
 .content{
     background: #fff;
     padding-top: 10px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 20%;
+    padding-right: 20%;
+   
 }
 .content h3{
     position: relative;
     text-align: center;
-    align-items: center;
-    font-size: 1.1rem;
+   
+    font-size: 1.3rem;
     margin-top: 30px;
 }
 .content p {
+    color: #4d4d4d;
     align-items: center;
-    font-size: 10px;
-    padding-right: 20px;
+    font-size: 12px;
+   padding-top: 25px;
     text-align: center;
     font-weight: 500;
+    margin-top: 10px;
 }
 .inspire .container{
+    padding-left: 20%;
+    padding-right: 20%;
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 0px;
   width: 100%;
-  padding-left: 200px;
-  padding-right: 200px;
+ 
   
 }
 .inspire .container .box{
-    padding: 3rem 2rem;
- border-radius: .5rem;
- background: #fff;
-   outline-offset: -1rem; 
-  text-align: center;   
+    padding: 3.5rem 1rem;
+    border-radius: .5rem;
+    background: #fff;
+    outline-offset: -1rem; 
+    text-align: center;   
 }
 .inspire .container .box img{
     margin: 1rem 0;
-    height: 10rem;   
+    height: 45px;   
 }
 .inspire .container .box h2{
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: black;
   line-height: 1.2;
+  padding: 5px;
 }
 .inspire .container .box p{
-  font-size: 1.2rem;
+  font-size: 12px;
   color: grey;
   line-height: 1.0;
-  padding: 1rem 0;
+  padding: 0rem 0;
+  margin-top: 10px;
 } 
 .inspire .container .box button{
     background: #f44336;
     color: #fff;
-    padding: 15px 38px;
+    padding: 10px 38px;
     margin-top: 30px;
     border: 0;
     border-radius: 2px;
+}
+.box img{
+    width: 50px;
+    height: 50px;
+
+}
+.web .heading {
+    text-align: center;
+    padding: 1rem 0;
+    padding-bottom: 2rem;
+    font-size: 3.5rem;
+    color: black;
+   
+}
+.web .pass {
+    font-size: 12px;
+    color: grey;
+    line-height: 1.0;
+    padding-left:  2rem 0; 
+    text-align: center; 
+    margin-bottom: 10px;
+    padding-left: 100px;
+}
+.web .Expertise .boxes {
+    background: #f44336;
+    color: #fff;
+    padding: 10px;
+    width: 30%;
+    min-height: 30vh;
+    line-height: 4vh;
+}
+.web .Expertise .boxes h2{
+    font-size: 16px;
+    color: #cac5c5;
+    font-weight: 500;
+    text-align: center;   
+}
+.web .Expertise .boxes h3{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+
+}
+.web .Expertise .boxes p{
+    font-size: 12px;
+    font-size: 600;
+    text-align: center;
+}
+.web .Expertise .boxes a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.web .Expertise .boxes button{
+    background: #fff;
+    color: #f44336;
+    margin: 5px;
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+   text-align: center;
+   margin-left: 60px;
+}
+
+.web .Expertise .boxe{
+    display: inline-block;
+    
+    /*grid-template-columns: repeat(4, 1fr); */
+    /* gap: 30px;  */
+    width: 80%; 
+    height: 20vh;
+    background: #fff; 
+    margin-left: 50px;
+    padding-left: 30px; 
+    height: 50vh;
+    
+}
+.web .Expertise .boxe img{
+    margin-left: 1rem 0;
+    height: 50%;
+    width: 40%;
+   padding-right: 30px;
+   padding-left:20px ;
+}
+
+.web .Expertise .boxe h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+.web .Expertise .boxe h3{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.web .Expertise .boxe p{
+    font-size: 1.0rem;
+    line-height: 1.0;
+   padding-left: 30px;
+   align-items: center;
+   text-align: center;
 }
