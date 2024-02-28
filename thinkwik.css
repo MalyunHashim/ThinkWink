@@ -7,7 +7,7 @@
 
 body{
     background-color: #fff;
-    padding-left: 50px;
+   
 }
 .header{
     min-height: 100vh;
@@ -63,7 +63,6 @@ nav button{
 .header-content{
     width:450px;
     color:#fff;
-    
     position: absolute;
     top:50%;
     left:50%;
@@ -122,8 +121,7 @@ nav button{
   grid-template-columns: repeat(3, 1fr); 
   gap: 0px;
   width: 100%;
-  padding-left: 200px;
-  padding-right: 200px;
+ 
   
 }
 .inspire .container .box{
