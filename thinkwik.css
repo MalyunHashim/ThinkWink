@@ -96,26 +96,35 @@ nav button{
     transition: 1s;
 
 } */
+
+.conts{
+    padding: 15px;
+}
 .content{
     background: #fff;
     padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
     
 }
 .content h3{
     position: relative;
     text-align: center;
-    align-items: center;
-    font-size: 1.1rem;
+   
+    font-size: 1.3rem;
     margin-top: 30px;
 }
 .content p {
+    color: #4d4d4d;
     align-items: center;
-    font-size: 10px;
-    padding-right: 20px;
+    font-size: 12px;
+   padding-top: 25px;
     text-align: center;
     font-weight: 500;
 }
 .inspire .container{
+    padding-left: 20%;
+    padding-right: 20%;
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 0px;
@@ -124,24 +133,25 @@ nav button{
   
 }
 .inspire .container .box{
-    padding: 3rem 2rem;
- border-radius: .5rem;
- background: #fff;
-   outline-offset: -1rem; 
-  text-align: center;   
+    padding: 2rem 1rem;
+    border-radius: .5rem;
+    background: #fff;
+    outline-offset: -1rem; 
+    text-align: center;   
 }
 .inspire .container .box img{
-    margin: 1rem 0;
-    height: 10rem;   
+    padding: 1rem 0;
+    height: 7rem;   
+    align-items: center;
 }
 .inspire .container .box h2{
-  font-size: 2rem;
+  font-size: 1rem;
   color: black;
   line-height: 1.2;
 }
 .inspire .container .box p{
-  font-size: 1.2rem;
-  color: grey;
+  font-size: 12px;
+  color: #4d4d4d;
   line-height: 1.0;
   padding: 1rem 0;
 } 
