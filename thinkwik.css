@@ -1,4 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
 *{
+
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
@@ -190,42 +194,55 @@ nav button{
     margin-bottom: 10px;
     padding-left: 100px;
 }
+.web .Expertise{
+    display: flex;
+}
 .web .Expertise .boxes {
     background: #f44336;
     color: #fff;
     padding: 10px;
-    width: 30%;
-    min-height: 30vh;
-    line-height: 4vh;
+    width:20%;
+    height: 400px;
+    padding: 50px 20px;
+    margin:10px;
+    align-items: center;
+    border-radius: 2px;
+    
+   
 }
-.web .Expertise .boxes h2{
+.web .Expertise .boxes .mobile h2{
     font-size: 16px;
     color: #cac5c5;
     font-weight: 500;
-    text-align: center;   
+    text-align: center;
+    padding-bottom: 10px;   
 }
-.web .Expertise .boxes h3{
+.web .Expertise .boxes .mobile h3{
     font-size: 18px;
     color: #fff;
     font-weight: 500;
     text-align: center;
+    padding-bottom: 10px;
 
 }
-.web .Expertise .boxes p{
+.web .Expertise .boxes .mobile p{
     font-size: 12px;
     font-size: 600;
     text-align: center;
+    padding-bottom: 25px;
 }
-.web .Expertise .boxes a{
+.Expertise .boxes .icon a{
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
     padding: 5px;
-    margin: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
     border-radius: 5px;
     text-align: center;
+    font-size: 12px;
 }
-.web .Expertise .boxes button{
+.Expertise .boxes .icon button{
     background: #fff;
     color: #f44336;
     margin: 5px;
@@ -233,15 +250,85 @@ nav button{
     border: 0;
     outline: 0;
     border-radius: 2px;
-   text-align: center;
+ text-align: center;
    margin-left: 60px;
 }
 
-.web .Expertise .boxe{
+
+.boxes1{
+    
+    padding: 10px;
+    width:20%;
+    height: 400px;
+    padding: 50px 30px;
+    margin:10px;
+    background-color: #fff;
+    border: 2px solid rgb(187, 180, 180);
+}
+
+
+.web .Expertise .boxes1 .mobile h2{
+    font-size: 16px;
+    color: #cac5c5;
+    font-weight: 500;
+    text-align: center;   
+}
+.web .Expertise .boxes1 .mobile h3{
+    font-size: 18px;
+    color:black;
+    font-weight: 500;
+    text-align: center;
+
+}
+.web .Expertise .boxes1 .mobile p{
+    font-size: 12px;
+    font-size: 600;
+    text-align: center;
+    padding: 10px;
+    
+}
+.Expertise .boxes1 .icon a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 6px;
+    margin: 5px;
+    border-radius: 2px;
+    text-align: center;
+}
+.Expertise .boxes1 .icon button{
+    background: #fff;
+    color: #f44336;
+    margin: 5px;
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+ text-align: center;
+   margin-left: 60px;
+
+}
+
+
+
+
+.btk{
+  padding-top: 30px;
+    
+}
+.btk button{
+    align-items: center;
+}
+.bts{
+    text-align: center;
+    color: #f44336;
+    padding: 5px 10px;
+}
+  /* .web .Expertise .boxe{
     display: inline-block;
     
-    /*grid-template-columns: repeat(4, 1fr); */
-    /* gap: 30px;  */
+    grid-template-columns: repeat(4, 1fr);  
+     gap: 30px;  
     width: 80%; 
     height: 20vh;
     background: #fff; 
@@ -252,7 +339,7 @@ nav button{
 }
 .web .Expertise .boxe img{
     margin-left: 1rem 0;
-    height: 50%;
+    height: 60%;
     width: 40%;
    padding-right: 30px;
    padding-left:20px ;
@@ -268,10 +355,10 @@ nav button{
     text-align: center;
     font-weight: 500;
 }
-.web .Expertise .boxe p{
+.web .Expertise .boxe p {
     font-size: 1.0rem;
     line-height: 1.0;
    padding-left: 30px;
    align-items: center;
    text-align: center;
-}
+}  */ 
